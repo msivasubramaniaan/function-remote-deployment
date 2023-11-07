@@ -1,0 +1,11 @@
+specVersion: 0.35.0
+name: test-1107
+runtime: node
+registry: image-registry.openshift-image-registry.svc:5000/msivasub-dev
+image: docker.io/msivasub/test-1107:latest
+imageDigest: sha256:d6bd48fd4fde0d17015ba4191fa903f38864511d7eaa26c55e3f9812983c2c51
+created: 2023-11-07T10:00:59.518Z
+build:
+  builder: pack
+deploy:
+  namespace: msivasub-dev
